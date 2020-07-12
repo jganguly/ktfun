@@ -21,3 +21,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+*.bin
+fp/.DS_Store
+*.lock
+*.properties
+fp/.idea/$PRODUCT_WORKSPACE_FILE$
+*.xml
+*.len
+*.at
+*.tab
+*.tab_i
+*.keystream
+*.iml
+fp/.idea/.name
+fp/build/classes/kotlin/main/META-INF/monad.kotlin_module
+fp/src/.DS_Store
+fp/src/main/.DS_Store
+fp/src/main/kotlin/.DS_Store
