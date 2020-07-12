@@ -38,3 +38,6 @@ fp/build/classes/kotlin/main/META-INF/monad.kotlin_module
 fp/src/.DS_Store
 fp/src/main/.DS_Store
 fp/src/main/kotlin/.DS_Store
+.DS_Store
+*.txt
+*.MF
