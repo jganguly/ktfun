@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+
+    <script  type="text/javascript"                   src ="/static/libjs/jquery.js">                           </script>
+    <script  type="text/javascript"                   src ="/static/libjs/jquery-ui-1.11.4/jquery-ui.js">       </script>
+    <script  type="text/javascript"                   src ="/static/libjs/json-viewer/json-viewer.js">          </script>
+    <link    type="text/css"    rel="stylesheet"      href="/static/libjs/jquery-ui-1.11.4/jquery-ui.css">
+
+    <link    type="text/css"    rel="stylesheet"      href="/static/libjs/json-viewer/json-viewer.css">
+
+    <link    rel="stylesheet"   type="text/css"       href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+    <link    rel="stylesheet"        href="/static/css/style.css" type="text/css">
+    <link    rel="shortcut icon"     href="/static/icon/fab.png"   type="image/x-icon"/>
+
+    <script  type="text/javascript"  src="/static/libjs/common.js"></script>
+    <script  type="text/javascript"  src="/static/module/jdd/jdd.js"></script>
+
+</head>
+
+
+
+<body style="height:100%;">
+
+    <div class="CLS_DIV_CEN">
+
+    <div style="width:71%; margin:auto; border:0px solid red;" id="menu">
+        <ul style="width:100%;  border:0px solid cyan;" id="ul1">
+        <li>
+        <a href="../rul/rul.html"   target="_self">RULE</a>
+            <ul>
+            <a href="../cfg/cfg.html"   target="_self">CONFIG</a>
+            <a href="../bdg/bdg.html"   target="_self">BINDING</a>
+            <a href="../val/val.html"   target="_self">VALIDATE</a>
+            <a href="../jdd/jdd.html"   target="_self">DATA DEF</a>
+            </ul>
+        </li>
+        <li>
+        <a href="../dat/dat.html"   target="_self">DATA</a>
+        </li>
+        <li>
+        <a href="../inf/inf.html"   target="_self">EXECUTE</a>
+        </li>
+        <li>
+        <a href="../out/out.html"   target="_self">OUTPUT</a>
+            <ul>
+            <a href="../log/log.html"   target="_self">LOG</a>
+            </ul>
+        </li>
+        <li>
+        <a href="../usr/usr.html"   target="_self">USERS</a>
+            <ul>
+            <a href="../pwd/pwd.html"   target="_self">PASSWORD</a>
+            </ul>
+        </li>
+        <li>
+        <a href="../about/about.html"   target="_self">ABOUT</a>
+            <ul>
+            <a href="../logout/logout.html"   target="_self">LOGOUT</a>
+            </ul>
+        </li>
+        <ul>
+    </div>
+
+    <label class="label" style="margin-left:-10px; margin-top:20px; color:black; font-weight:bold; color:blue">Data Definition</label>
+    <textarea name="tar_dic" id="id_tar_dic" style="width: 98%; min-height: 50px;" hidden></textarea>
+    
+    <div>
+    	<!--<button type="button" class="load-json" style="background-color:lightgray; color:blue; font-weight:bold">View JSON</button>-->
+        <!--<button type="button" class="save-json" style="background-color:lightgray; color:blue; font-weight:bold">Save JSON</button>-->
+    </div>
+    <div id="json" style="margin-top:40px;"></div>
+    
+    
+    
+</div>
+
+</body>
+</html>

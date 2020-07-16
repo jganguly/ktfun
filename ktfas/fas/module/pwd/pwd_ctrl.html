@@ -1,0 +1,44 @@
+<div class="CLS_DIV_INP" style="padding-top:4px; height:600px; border:0px solid white; display:table-row">
+
+    <div class="CLS_DIV_INP_1"></div>
+
+    <div class="CLS_DIV_INP_2" style="width:20%; border:0px solid white; ">
+        <div class="CLS_DIV_HOL">
+            <label class="label">User ID</label>
+            <input style="background:lightgray;  text-overflow: ellipsis; overflow:hidden; font-weight: normal; font-size:1.10em; color:black;" type="text" class="text" name="tbx_uid" id="id_tbx_uid" tabindex="1" readonly />
+        </div>
+        <BR/><BR>
+        <div class="CLS_DIV_HOL">
+            <label class="label">Password</label>
+            <input type="password" autocomplete="off" style="background:white;  text-overflow: ellipsis; overflow:hidden; font-weight: normal; font-size:1.10em; color:black;" type="text" class="text" name="tbx_pw1" id="id_tbx_pw1" tabindex="1" />
+        </div>
+        <BR/><BR>
+        <div class="CLS_DIV_HOL">
+            <label class="label">Retype Password</label>
+            <input type="password" autocomplete="off" style="background:white;  text-overflow: ellipsis; overflow:hidden; font-weight: normal; font-size:1.10em; color:black;" type="text" class="text" name="tbx_pw2" id="id_tbx_pw2" tabindex="1" />
+        </div>
+        <BR/><BR>
+        <div class="CLS_DIV_HOL">
+            <input  type="button"   id="id_but_pwd" name="but_pwd"  title="Update Password"   style="background:url(../../icon/upd.png) no-repeat; font-size:0.8em;  margin-left:20px; " onclick="updpwd();">
+        </div>
+
+    </div>
+
+    <div class="CLS_DIV_INP_1"></div>
+    <BR>
+</div>
+
+
+
+<div id='id_div_ins' title='Message' style="display:none;"><p><span class='ui-icon ui-icon-alert' style='float: left; margin: 0 7px 20px 0;'></span>Add?</p></div>
+<div id='id_div_upd' title='Message' style="display:none;"><p><span class='ui-icon ui-icon-alert' style='float: left; margin: 0 7px 20px 0;'></span>Update?</p></div>
+<div id='id_div_del' title='Message' style="display:none;"><p><span class='ui-icon ui-icon-alert' style='float: left; margin: 0 7px 20px 0;'></span>Delete?</p></div>
+
+
+<div id='id_div_msg' title='Message' style="display:none; font-weight:normal"><p><span class='ui-icon ui-icon-alert ui-dialog-titlebar ui-widget-header' style='float: left; margin: 0 7px 20px 0; overflow-y: scroll;'></span>Message</p></div>
+
+<img src="../../icon/wai.gif" id="id_img_wai" style="position:absolute; left:480px; top:250px; visibility:hidden; ">
+
+
+
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+
+    <script  type="text/javascript"                   src ="/static/libjs/jquery.js">                           </script>
+    <script  type="text/javascript"                   src ="/static/libjs/jquery-ui-1.11.4/jquery-ui.js">       </script>
+    <script  type="text/javascript"                   src ="/static/libjs/json-viewer/json-viewer.js">          </script>
+    <link    type="text/css"    rel="stylesheet"      href="/static/libjs/jquery-ui-1.11.4/jquery-ui.css">
+
+    <link    type="text/css"    rel="stylesheet"      href="/static/libjs/json-viewer/json-viewer.css">
+
+    <link    rel="stylesheet"   type="text/css"       href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+    <link    rel="stylesheet"        href="/static/css/style.css" type="text/css">
+    <link    rel="shortcut icon"     href="/static/icon/fab.png"   type="image/x-icon"/>
+
+    <script  type="text/javascript"  src="/static/libjs/common.js"></script>
+    <script  type="text/javascript"  src="/static/module/pwd/pwd.js"></script>
+
+</head>
+
+
+
+<body style="height:100%;">
+
+    <div class="CLS_DIV_CEN">
+
+    <div style="width:71%; margin:auto; border:0px solid red;" id="menu">
+        <ul style="width:100%;  border:0px solid cyan;" id="ul1">
+        <li>
+        <a href="../rul/rul.html"   target="_self">RULE</a>
+            <ul>
+            <a href="../cfg/cfg.html"   target="_self">CONFIG</a>
+            <a href="../bdg/bdg.html"   target="_self">BINDING</a>
+            <a href="../val/val.html"   target="_self">VALIDATE</a>
+            <a href="../jdd/jdd.html"   target="_self">DATA DEF</a>
+            </ul>
+        </li>
+        <li>
+        <a href="../dat/dat.html"   target="_self">DATA</a>
+        </li>
+        <li>
+        <a href="../inf/inf.html"   target="_self">EXECUTE</a>
+        </li>
+        <li>
+        <a href="../out/out.html"   target="_self">OUTPUT</a>
+            <ul>
+            <a href="../log/log.html"   target="_self">LOG</a>
+            </ul>
+        </li>
+        <li>
+        <a href="../usr/usr.html"   target="_self">USERS</a>
+            <ul>
+            <a href="../pwd/pwd.html"   target="_self">PASSWORD</a>
+            </ul>
+        </li>
+        <li>
+        <a href="../about/about.html"   target="_self">ABOUT</a>
+            <ul>
+            <a href="../logout/logout.html"   target="_self">LOGOUT</a>
+            </ul>
+        </li>
+        <ul>
+    </div>
+
+    <div class="CLS_DIV_INP" style="padding-top:4px; height:600px; border:0px solid white; display:table-row">
+    
+        <div class="CLS_DIV_INP_1"></div>
+    
+        <div class="CLS_DIV_INP_2" style="width:20%; border:0px solid white; ">
+            <div class="CLS_DIV_HOL">
+                <label class="label">User ID</label>
+                <input style="background:lightgray;  text-overflow: ellipsis; overflow:hidden; font-weight: normal; font-size:1.10em; color:black;" type="text" class="text" name="tbx_uid" id="id_tbx_uid" tabindex="1" readonly />
+            </div>
+            <BR/><BR>
+            <div class="CLS_DIV_HOL">
+                <label class="label">Password</label>
+                <input type="password" autocomplete="off" style="background:white;  text-overflow: ellipsis; overflow:hidden; font-weight: normal; font-size:1.10em; color:black;" type="text" class="text" name="tbx_pw1" id="id_tbx_pw1" tabindex="1" />
+            </div>
+            <BR/><BR>
+            <div class="CLS_DIV_HOL">
+                <label class="label">Retype Password</label>
+                <input type="password" autocomplete="off" style="background:white;  text-overflow: ellipsis; overflow:hidden; font-weight: normal; font-size:1.10em; color:black;" type="text" class="text" name="tbx_pw2" id="id_tbx_pw2" tabindex="1" />
+            </div>
+            <BR/><BR>
+            <div class="CLS_DIV_HOL">
+                <input  type="button"   id="id_but_pwd" name="but_pwd"  title="Update Password"   style="background:url(../../icon/upd.png) no-repeat; font-size:0.8em;  margin-left:20px; " onclick="updpwd();">
+            </div>
+    
+        </div>
+    
+        <div class="CLS_DIV_INP_1"></div>
+        <BR>
+    </div>
+    
+    
+    
+    <div id='id_div_ins' title='Message' style="display:none;"><p><span class='ui-icon ui-icon-alert' style='float: left; margin: 0 7px 20px 0;'></span>Add?</p></div>
+    <div id='id_div_upd' title='Message' style="display:none;"><p><span class='ui-icon ui-icon-alert' style='float: left; margin: 0 7px 20px 0;'></span>Update?</p></div>
+    <div id='id_div_del' title='Message' style="display:none;"><p><span class='ui-icon ui-icon-alert' style='float: left; margin: 0 7px 20px 0;'></span>Delete?</p></div>
+    
+    
+    <div id='id_div_msg' title='Message' style="display:none; font-weight:normal"><p><span class='ui-icon ui-icon-alert ui-dialog-titlebar ui-widget-header' style='float: left; margin: 0 7px 20px 0; overflow-y: scroll;'></span>Message</p></div>
+    
+    <img src="../../icon/wai.gif" id="id_img_wai" style="position:absolute; left:480px; top:250px; visibility:hidden; ">
+    
+    
+    
+    
+</div>
+
+</body>
+</html>

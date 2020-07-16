@@ -1,0 +1,109 @@
+<div class="CLS_DIV_TAB">
+<table id="id_table" class="CLS_TBL" ><tr class="CLS_TBL_HDR" style="font-family:ubuntu">
+
+<th id='id_col_0' class="TD_C" width="03%" onclick="sortColumn('');"  style="white-space:nowrap; vertical-align:center; visibility:visible" title="Click to sort">Sel</th>
+<th id='id_col_1' class="TD_L" width="50%" onclick="sortColumn('oid');"  style="white-space:nowrap; vertical-align:center; visibility:visible" title="Click to sort">User ID</th>
+<th id='id_col_2' class="TD_L" width="50%" onclick="sortColumn('rol');"  style="white-space:nowrap; vertical-align:center; visibility:visible" title="Click to sort">Role</th>
+<th id='id_col_3' class="TD_L" width="0%" onclick="sortColumn('pmk');"  style="white-space:nowrap; vertical-align:center; visibility:hidden" title="Click to sort">pmk</th>
+</tr>
+
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td style="vertical-align:center; " align="left"><img id="id_img_clf" src="../../icon/clf.png" height="16" width="16-left" style="padding-left:4px;" onclick="clf();" /></td>
+<td class="TD_L" style="white-space:nowrap; vertical-align:center; visibility:visible"><div><input id="id_sea_1" type="textbox" style="font-weight:bold; text-align:left; width:99%; color:purple; font-size:1.0em;" onchange="sea();"/></div></td>
+<td class="TD_L" style="white-space:nowrap; vertical-align:center; visibility:visible"><div><input id="id_sea_2" type="textbox" style="font-weight:bold; text-align:left; width:99%; color:purple; font-size:1.0em;" onchange="sea();"/></div></td>
+<td class="TD_L"><div><input id="id_sea_3" type="textbox" style="text-align:L; width:99%; color:purple; font-size:1.0em;" onchange="sea();"/> </div></td>
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_1_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_0" name="cbx_0" disabled> </td>
+<td id="id_td_1_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(1); >
+<td id="id_td_1_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(1); >
+<td id="id_td_1_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(1); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td id="id_td_2_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_1" name="cbx_1" disabled> </td>
+<td id="id_td_2_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(2); >
+<td id="id_td_2_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(2); >
+<td id="id_td_2_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(2); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_3_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_2" name="cbx_2" disabled> </td>
+<td id="id_td_3_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(3); >
+<td id="id_td_3_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(3); >
+<td id="id_td_3_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(3); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td id="id_td_4_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_3" name="cbx_3" disabled> </td>
+<td id="id_td_4_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(4); >
+<td id="id_td_4_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(4); >
+<td id="id_td_4_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(4); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_5_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_4" name="cbx_4" disabled> </td>
+<td id="id_td_5_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(5); >
+<td id="id_td_5_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(5); >
+<td id="id_td_5_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(5); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td id="id_td_6_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_5" name="cbx_5" disabled> </td>
+<td id="id_td_6_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(6); >
+<td id="id_td_6_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(6); >
+<td id="id_td_6_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(6); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_7_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_6" name="cbx_6" disabled> </td>
+<td id="id_td_7_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(7); >
+<td id="id_td_7_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(7); >
+<td id="id_td_7_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(7); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td id="id_td_8_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_7" name="cbx_7" disabled> </td>
+<td id="id_td_8_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(8); >
+<td id="id_td_8_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(8); >
+<td id="id_td_8_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(8); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_9_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_8" name="cbx_8" disabled> </td>
+<td id="id_td_9_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(9); >
+<td id="id_td_9_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(9); >
+<td id="id_td_9_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(9); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td id="id_td_10_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_9" name="cbx_9" disabled> </td>
+<td id="id_td_10_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(10); >
+<td id="id_td_10_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(10); >
+<td id="id_td_10_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(10); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_11_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_10" name="cbx_10" disabled> </td>
+<td id="id_td_11_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(11); >
+<td id="id_td_11_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(11); >
+<td id="id_td_11_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(11); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td id="id_td_12_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_11" name="cbx_11" disabled> </td>
+<td id="id_td_12_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(12); >
+<td id="id_td_12_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(12); >
+<td id="id_td_12_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(12); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_13_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_12" name="cbx_12" disabled> </td>
+<td id="id_td_13_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(13); >
+<td id="id_td_13_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(13); >
+<td id="id_td_13_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(13); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="white">
+<td id="id_td_14_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_13" name="cbx_13" disabled> </td>
+<td id="id_td_14_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(14); >
+<td id="id_td_14_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(14); >
+<td id="id_td_14_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(14); >
+</tr>
+<tr class="CLS_TBL_ROW" bgcolor="#ccffff">
+<td id="id_td_15_0"class="TD_C"><input style="height:10px; white-space:nowrap; vertical-align:center; visibility:hidden;" type="checkbox" id="id_cbx_14" name="cbx_14" disabled> </td>
+<td id="id_td_15_1"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(15); >
+<td id="id_td_15_2"class="TD_L" width="50%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:visible"  onClick=selRow(15); >
+<td id="id_td_15_3"class="TD_L" width="0%" style="line-height:10px; font-weight:bold; white-space:nowrap; overflow:hidden; visibility:hidden"  onClick=selRow(15); >
+</tr>
+
+</table>
+</div>
+
